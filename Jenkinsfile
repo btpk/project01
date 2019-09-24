@@ -3,7 +3,7 @@ node{
 stage('scm'){
 //git clone
 
-  git 'https://github.com/spring-projects/spring-petclinic.git'
+  git 'https://github.com/wakaleo/game-of-life.git'
 }
  stage('build the package'){
      //mvn package
